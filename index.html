@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | COMP1054</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- Locally hosted font for headings -->
+    <link rel="stylesheet" href="fonts.css">
+    <!-- Externally hosted font for body text -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">MyPortfolio</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Hello, I'm <span>Vaishnav</span></h2>
+                    <p align="center">A passionate web developer studying at Georgian College</p>
+                    <a  align="center" href="#projects" class="btn">View My Work</a>
+                </div>
+                <div class="hero-image">
+                    <img src="profilepicture.jpg" alt="Profile picture" width="300">
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>HTML</h3>
+                        <p>Semantic markup, accessibility, forms</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>CSS</h3>
+                        <p>Flexbox, Grid, animations, responsive design</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>DOM manipulation, ES6+ features</p>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="project1.jpg" alt="E-commerce website">
+                        <div class="project-info">
+                            <h3>E-commerce Site</h3>
+                            <p>A fully responsive online store with product filtering</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="project2.jpg" alt="Weather application">
+                        <div class="project-info">
+                            <h3>Weather App</h3>
+                            <p>Real-time weather data with 5-day forecast</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="project3.jpg" alt="Arduino Project">
+                        <div class="project-info">
+                            <h3>Arduino Project</h3>
+                            <p>Create a man running Game</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="project4.jpg" alt="Restaurant website">
+                        <div class="project-info">
+                            <h3>Restaurant Website</h3>
+                            <p>Online reservation system and menu display</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-content">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <Connect With Me<br><br>
+Email: v41sh7@gmail.com<br>
+<a href="https://www.linkedin.com/in/vaishnav-vijayan-87262a29b/">LinkedIn</a><br>
+<a href="https://github.com/V41sh77">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Font Awesome for social icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+ 
